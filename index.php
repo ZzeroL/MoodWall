@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>心情墙</title>
-		<!--<meta http-equiv="refresh" content="1">   刷新-->
+		<meta http-equiv="refresh" content="1">  
 	<style>
 		.content{
 			width:1000px;
@@ -17,6 +17,8 @@
 			height:100px;
 		}
 		.topleft{
+			border-style: solid;
+			border-width: 1px;
 			width:100px;
 			height:100px;
 			float:left;
@@ -62,6 +64,10 @@
 			background-color:pink;
 			float:left;
 		}
+		.bottom{
+			width:1000px;
+			height:300px;
+		}
 		.kongbai{
 			width:1000px;
 			height:20px;
@@ -105,21 +111,27 @@
 				<div class="contentmid">
 					<p><?php echo $res['article']?></p>
 				</div>
-				<div class="contentbottom">
-					<img style="width:300px; height:300px;" src="./upload/<?php echo $res['pictureone']?>">
-					
-				</div>
-				<div class="jiange">
-				</div>
-				<div class="contentbottom">
-					<img style="width:300px; height:300px;" src="./upload/<?php echo $res['picturetwo']?>">
-				</div>
-				<div class="jiange">
-				</div>
-				<div class="contentbottom">
-					<img style="width:300px; height:300px;" src="./upload/<?php echo $res['picturethree']?>">
-				</div>
+				<div class="bottom">
+					<div class="contentbottom">
+						<img style="width:300px; height:300px;" src="./upload/<?php echo $res['pictureone']?>">
+						
+					</div>
+					<div class="jiange">
+					</div>
+					<div class="contentbottom">
+						<img style="width:300px; height:300px;" src="./upload/<?php echo $res['picturetwo']?>">
+					</div>
+					<div class="jiange">
+					</div>
+					<div class="contentbottom">
+						<img style="width:300px; height:300px;" src="./upload/<?php echo $res['picturethree']?>">
+					</div>
 				
+				</div>
+				<div>
+					<div class="kongbai">
+					</div>
+				</div>
 			</div>
 		</center>
 		<?php 

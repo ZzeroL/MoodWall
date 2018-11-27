@@ -8,6 +8,7 @@
 				font-size:20px;
 				color:black;
 				text-decoration:none;
+				line-height:50px;
 			}
 			a:hover{
 				font-size:24px;
@@ -21,7 +22,7 @@
 				background-color:#00bfff;
 			}
 			.huanying{
-				width:200px;
+				width:350px;
 				height:50px;
 				float:left;
 			}
@@ -45,7 +46,7 @@
 		<center>
 			<div>
 			<h1>心情墙</h1>
-			<a href="./index.php">123</a>  |  <a href="./01.php">我要留言</a>
+			<a href="./index.php">123</a>  |  <a href="./01.php">我要发表</a>
 			</div>
 		</center>
 		<hr>
